@@ -14,50 +14,50 @@ function shakeMagic8Ball(){
 
     switch(randomNumber) {
           case 0:
-            answer = 'OF COURSE'
+            answer = 'of course!'
             image = "of-course.jpg"
-            color = "text-#"
+            color = "text-secondary"
             break;
           case 1:
-            answer = 'NO'
+            answer = 'no!'
             image = "no.jpg"
-            color = "text-#"
+            color = "text-danger"
             break;
           case 2:
-            answer = 'YES'
+            answer = 'yes!'
             image = "yes.jpg"
-            color = "text-#"
+            color = "text-success"
             break;
           case 3:
-            answer = 'MAYBE'
+            answer = 'maybe'
             image = "maybe.jpg"
-            color = "text-#"
+            color = "text-info"
             break;
           case 4:
-            answer = 'IDK TRY AGAIN'
-            image = "idk.jpg"
-            color = "text-#"
+            answer = 'try again'
+            image = "tryagain.jpg"
+            color = "text-primary"
             break;
           case 5:
-            answer = 'CANNOT PREDICT NOW'
+            answer = 'cannot predict now'
             image = "cannotpredictnow.jpg"
-            color = "text-#"
+            color = "text-warning"
             break;
           case 6:
-            answer = 'DO NOT COUNT ON IT'
+            answer = 'do not count on it'
             image = "donotcountonit.jpg"
-            color = "text-#"
+            color = "text-muted"
             break;
           case 7:
-            answer = 'MY SOURCES SAY NO'
+            answer = 'my sources say no'
             image = "mysourcessayno.jpg"
-            color = "text-#"
+            color = "text-danger"
             break;
     }
     
     const responseText = document.getElementById(`response-text`)
     responseText.innerText = answer;
-    responseText.classList =`display-4 $(color)`;
+    responseText.classList =`display-4 ${color}`;
     document.getElementById('response-image').src = image;
 
 }
