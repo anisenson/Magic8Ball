@@ -16,25 +16,30 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div class="container text-center my-auto" id="magic-8-ball">
+
       <div class="row justify-content-center">
+
         <h1>Magic 8 Ball</h1>
         <div class="lead" id="response-text">Ask a question...</div>
         <img
-          src="https://picsum.photos/1000"
+          src="img/magic8ball.png"
           alt=""
           id="response-image"
           class="img-fluid mb-4 col-5"
         />
         <div class="row justify-content-center">
-          <button onclick="shakeMagic8Ball()" class="btn btn-primary col-8">
+          <button onclick="shakeMagic8Ball()" class="custombutton btn col-4">
             Shake the Magic 8 ball
           </button>
         </div>
       </div>
+
     </div>
 
     <!-- Bootstrap JavaScript Libraries -->

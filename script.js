@@ -15,42 +15,42 @@ function shakeMagic8Ball(){
     switch(randomNumber) {
           case 0:
             answer = 'of course!'
-            image = "of-course.jpg"
+            image = "img/of-course.jpg"
             color = "text-secondary"
             break;
           case 1:
             answer = 'no!'
-            image = "no.jpg"
+            image = "img/no.jpg"
             color = "text-danger"
             break;
           case 2:
             answer = 'yes!'
-            image = "yes.jpg"
+            image = "img/yes.jpg"
             color = "text-success"
             break;
           case 3:
             answer = 'maybe'
-            image = "maybe.jpg"
+            image = "img/maybe.jpg"
             color = "text-info"
             break;
           case 4:
             answer = 'try again'
-            image = "tryagain.jpg"
+            image = "img/tryagain.jpg"
             color = "text-primary"
             break;
           case 5:
-            answer = 'cannot predict now'
-            image = "cannotpredictnow.jpg"
+            answer = 'ask again later'
+            image = "img/askagain.jpg"
             color = "text-warning"
             break;
           case 6:
-            answer = 'do not count on it'
-            image = "donotcountonit.jpg"
+            answer = 'Signs point to yes'
+            image = "img/yes2.jpg"
             color = "text-muted"
             break;
           case 7:
             answer = 'my sources say no'
-            image = "mysourcessayno.jpg"
+            image = "img/mysourcessayno.jpg"
             color = "text-danger"
             break;
     }
